@@ -1,0 +1,3 @@
+Responsive Rails app for adding contacts and removing duplicates based on email, name, phone number
+
+Basically if the email is different for two contacts but phone is same then it needs to be merged and the contact should be two emails for the same contact. It can be merged based on three parameters mentioned above.
