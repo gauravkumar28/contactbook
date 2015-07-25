@@ -4,18 +4,18 @@
   <div class="col-sm-6">
     <div class="table-responsive">
       <table class="table table-hover">
-		    <tr>
-		      <td><strong> Name</strong></td>
-		      <td><%=@contact.persons.pluck(:name).join(",")%></td>
-		    </tr>
-		    <tr>
-		      <td><strong> Phone: </strong></td>
-		      <td><%= @contact.phones.pluck(:phonenumber).join(",") %></td>
-		    </tr>
-		    <tr>
-		      <td><strong> Emails: </strong></td>
-		      <td><%= @contact.emails.pluck(:email_url).join(",") %></td>
-		    </tr>
+        <tr>
+          <td><strong> Name</strong></td>
+          <td><%=@contact.persons.pluck(:name).join(",")%></td>
+        </tr>
+        <tr>
+          <td><strong> Phone: </strong></td>
+          <td><%= @contact.phones.pluck(:phonenumber).join(",") %></td>
+        </tr>
+        <tr>
+          <td><strong> Emails: </strong></td>
+          <td><%= @contact.emails.pluck(:email_url).join(",") %></td>
+        </tr>
       </table>
     </div>
   <div class="col-sm-6">
